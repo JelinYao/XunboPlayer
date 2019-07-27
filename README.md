@@ -21,3 +21,23 @@
     2017年的项目，很久没有看这些代码了，能力有限，欢迎指正探讨。
 
 运行截图：
+
+![Image](https://raw.githubusercontent.com/JelinYao/XunboPlayer/master/img/1.png)
+
+![Image](https://raw.githubusercontent.com/JelinYao/XunboPlayer/master/img/2.png)
+
+![Image](https://raw.githubusercontent.com/JelinYao/XunboPlayer/master/img/3.png)
+
+![Image](https://raw.githubusercontent.com/JelinYao/XunboPlayer/master/img/4.png)
+
+![Image](https://raw.githubusercontent.com/JelinYao/XunboPlayer/master/img/5.png)
+
+![Image](https://raw.githubusercontent.com/JelinYao/XunboPlayer/master/img/6.png)
+
+![Image](https://raw.githubusercontent.com/JelinYao/XunboPlayer/master/img/7.png)
+
+![Image](https://raw.githubusercontent.com/JelinYao/XunboPlayer/master/img/8.png)
+
+![Image](https://raw.githubusercontent.com/JelinYao/XunboPlayer/master/img/9.png)
+
+![Image](https://raw.githubusercontent.com/JelinYao/XunboPlayer/master/img/10.png)
