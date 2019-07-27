@@ -1,0 +1,11 @@
+#pragma once
+
+
+
+enum
+{
+	WM_MAIN_MSG_BEGIN = WM_USER + 1000,
+	WM_MAIN_MSG_PRO_PLAY,
+	WM_MAIN_MSG_PRO_VOLUME,
+	WM_MAIN_MSG_PLAY,
+};

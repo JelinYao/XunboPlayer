@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Wnd">
+      <UniqueIdentifier>{ad851d32-91e9-419e-8de9-3c28af9d366c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{8ceb77b2-a250-41da-8c58-1bf9d7de2df6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wnd\MsgBox">
+      <UniqueIdentifier>{9f736e70-bfd4-4eb0-b919-2cea40152c66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wnd\Main">
+      <UniqueIdentifier>{6d7051db-db94-44f1-a936-0c37e1c00c36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wnd\PlayBar">
+      <UniqueIdentifier>{60495cb5-4dea-4566-a576-4fbf82dc9620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{da97d3cd-74f2-4b00-89a0-9d67f0d347c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="md5">
+      <UniqueIdentifier>{8e19c1d2-ed39-4eaa-a538-3ed81019f2c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\MyPlayer.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\PlayerUI.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgBox\SimpleMsgWnd.cpp">
+      <Filter>Wnd\MsgBox</Filter>
+    </ClCompile>
+    <ClCompile Include="WndMain.cpp">
+      <Filter>Wnd\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="WndMain_Callback.cpp">
+      <Filter>Wnd\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="WndPlayBar.cpp">
+      <Filter>Wnd\PlayBar</Filter>
+    </ClCompile>
+    <ClCompile Include="WndMain_Msg.cpp">
+      <Filter>Wnd\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Common.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5\md5.cpp">
+      <Filter>md5</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="XunboPlayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Player\MyPlayer.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Player\PlayerUI.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="SoftDefine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Player\IPlayerCallback.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgBox\SimpleMsgWnd.h">
+      <Filter>Wnd\MsgBox</Filter>
+    </ClInclude>
+    <ClInclude Include="WndMain.h">
+      <Filter>Wnd\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="WndPlayBar.h">
+      <Filter>Wnd\PlayBar</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgDefine.h">
+      <Filter>Wnd</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\md5.h">
+      <Filter>md5</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="XunboPlayer.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="logo.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="XunboPlayer.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\PlayerSkin.zip" />
+    <None Include="PlayerSkin.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
