@@ -98,7 +98,6 @@
   <ItemGroup>
     <ClCompile Include="Common\Common.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="MD5\md5.cpp" />
     <ClCompile Include="MsgBox\SimpleMsgWnd.cpp" />
     <ClCompile Include="Player\MyPlayer.cpp" />
     <ClCompile Include="Player\PlayerUI.cpp" />
@@ -114,7 +113,6 @@
   <ItemGroup>
     <ClInclude Include="Common\Common.h" />
     <ClInclude Include="Global.h" />
-    <ClInclude Include="MD5\md5.h" />
     <ClInclude Include="MsgBox\SimpleMsgWnd.h" />
     <ClInclude Include="MsgDefine.h" />
     <ClInclude Include="Player\IPlayerCallback.h" />

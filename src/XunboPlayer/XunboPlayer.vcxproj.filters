@@ -31,9 +31,6 @@
     <Filter Include="Common">
       <UniqueIdentifier>{da97d3cd-74f2-4b00-89a0-9d67f0d347c5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="md5">
-      <UniqueIdentifier>{8e19c1d2-ed39-4eaa-a538-3ed81019f2c5}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -65,9 +62,6 @@
     </ClCompile>
     <ClCompile Include="Common\Common.cpp">
       <Filter>Common</Filter>
-    </ClCompile>
-    <ClCompile Include="MD5\md5.cpp">
-      <Filter>md5</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -112,9 +106,6 @@
     </ClInclude>
     <ClInclude Include="Common\Common.h">
       <Filter>Common</Filter>
-    </ClInclude>
-    <ClInclude Include="MD5\md5.h">
-      <Filter>md5</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

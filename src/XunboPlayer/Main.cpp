@@ -8,11 +8,10 @@
 #include "WndMain.h"
 #include "SoftDefine.h"
 #include "Global.h"
-#include "MD5\md5.h"
+
 
 
 CComModule _module;
-bool ParseCmdLine(const wstring& strCmd, OUT wstring& strTitle, OUT wstring& strUrl);
 int APIENTRY _tWinMain(HINSTANCE hInstance,
                      HINSTANCE hPrevInstance,
                      LPTSTR    lpCmdLine,
@@ -35,11 +34,8 @@ int APIENTRY _tWinMain(HINSTANCE hInstance,
 	CPaintManagerUI::SetInstance(hInstance);
 	CWndShadow::Initialize(hInstance);
 	CGlobal::Instance()->Init();
-	wstring strUrl, strTitle;
-	if (strTitle.empty())
-		strTitle = SOFT_NAME;
-	CWndMain* pWnd = new CWndMain(strUrl, strTitle);
-	pWnd->Create(NULL, strTitle.c_str(), UI_WNDSTYLE_FRAME, 0);
+	CWndMain* pWnd = new CWndMain(L"", SOFT_NAME);
+	pWnd->Create(NULL, SOFT_NAME, UI_WNDSTYLE_FRAME, 0);
 	pWnd->CenterWindow();
 	pWnd->ShowWindow();
 	CPaintManagerUI::MessageLoop();
